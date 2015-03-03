@@ -1,7 +1,7 @@
 require 'rake' # As explained in http://stackoverflow.com/questions/14438247/how-do-i-require-rake-to-be-able-to-use-filelist-in-gemspec
 spec = Gem::Specification.new do |s|
   s.name = 'gdash'
-  s.version = "0.0.6"
+  s.version = "0.0.7"
   s.author = 'R.I.Pienaar'
   s.email = 'rip@devco.net'
   s.homepage = 'http://devco.net/'
