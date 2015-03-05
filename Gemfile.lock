@@ -4,8 +4,8 @@ GEM
     commonjs (0.2.7)
     graphite_graph (0.0.8)
     json (1.8.2)
-    less (2.6.0)
-      commonjs (~> 0.2.7)
+    less (2.2.2)
+      commonjs (~> 0.2.6)
     libv8 (3.16.14.7)
     rack (1.6.0)
     rack-protection (1.5.3)
@@ -27,7 +27,7 @@ PLATFORMS
 DEPENDENCIES
   graphite_graph (~> 0.0.8)
   json
-  less
+  less (~> 2.2.1)
   redcarpet
   sinatra
   therubyracer
