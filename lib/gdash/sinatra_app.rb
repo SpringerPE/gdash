@@ -316,8 +316,12 @@ class GDash
         result = ""
         if date.nil? 
           result = default
-        else 
-          result = DateTime.parse(date).strftime("%Y-%m-%d %H:%M")
+        else
+          begin
+            result = DateTime.parse(date).strftime("%Y-%m-%d %H:%M")
+          rescue
+            result = default
+          end
         end
         return result
       end
